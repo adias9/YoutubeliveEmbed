@@ -6,9 +6,15 @@
 
     <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track': 'reload' %>
     <%= javascript_include_tag 'application', 'data-turbolinks-track': 'reload' %>
+    <!-- Inline scripts for now -->
+    <meta name="google-signin-scope" content="profile email">
+    <meta name="google-signin-client_id" content="379384360740-nqv97bqfbi1575edsco6j8qtnnl8vp1j.apps.googleusercontent.com">
+    <script src="https://apis.google.com/js/platform.js" async defer></script>
   </head>
 
   <body>
+    <p class="notice"><%= notice %></p>
+    <p class="alert"><%= alert %></p>
     <%= yield %>
   </body>
 </html>

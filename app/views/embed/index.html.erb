@@ -1,7 +1,7 @@
-<html>
- <body>
+<body>
   <iframe src="https://www.youtube.com/embed/lmG0ReJvGno" width="560" height="315" frameborder="0" allowfullscreen></iframe>
-   <h1>Youtube chat</h1>
-   <iframe  frameborder="0" height="270" src="https://www.youtube.com/live_chat?v=lmG0ReJvGno&embed_domain=https://warm-escarpment-79185.herokuapp.com/" width="480"></iframe>
- </body>
-</html>
+  <h1>Youtube chat</h1>
+
+  <%= link_to "Sign in with Google", user_google_oauth2_omniauth_authorize_path %>
+  <%= link_to "Send Message", embed_new_message_path %>
+</body>

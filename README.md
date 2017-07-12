@@ -1,5 +1,11 @@
 # README
 
+Notes:
+Limitations:
+-person running stream must sign in to authorize the use of chat on site
+-
+
+
 This README would normally document whatever steps are necessary to get the
 application up and running.
 

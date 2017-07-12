@@ -32,6 +32,13 @@ gem 'jbuilder', '~> 2.5'
 # Use ActiveModel has_secure_password
 # gem 'bcrypt', '~> 3.1.7'
 
+# My Added Gems
+gem 'rest-client', '~> 2.0.2'
+gem 'omniauth-google-oauth2'
+gem 'figaro'
+gem 'devise'
+
+
 # Use Capistrano for deployment
 # gem 'capistrano-rails', group: :development
 
